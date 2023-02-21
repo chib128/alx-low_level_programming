@@ -1,20 +1,14 @@
-/*
- * File: 1-alphabet.c
- * Auth: Brian Chibisa
- */
-
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * print_alphabet - Make the aphabet
+ * print_alphabet - Make the alphabet
  * Return: void
-*/
-int main(void)
+ */
+
+void print_alphabet(void)
 {
 	char c;
-	
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 	_putchar(c);
