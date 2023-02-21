@@ -1,11 +1,17 @@
-#include "main.h"
-
-/**
- * print_alphabet - Make the alphabet
- * Return: void
+/*
+ * File: 1-alphabet.c
+ * Auth: Brian Chibisa
  */
 
-void print_alphabet(void)
+#include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
+
+/**
+ * print_alphabet - Make the aphabet
+ * Return: void
+*/
+int main(void)
 {
 	char c;
 	
