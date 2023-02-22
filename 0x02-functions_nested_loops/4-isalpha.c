@@ -2,12 +2,12 @@
 
 
 /**
- * _islower - checks for lowercase character
+ * _islower - Checks for lowercase character
  * @c: The character to be checked
- * Return: 1 for lowercase character or 0 for anything else
+ * Return: 1 for alphabetic character or 0 for anything else
  */
 
-int _islower(int c)
+int _isalpha(int c)
 
 {
         if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
