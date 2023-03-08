@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _puts_recursion-function like  puts();
- * @a: inpurt
- * Return: Always B (success)
+ * @s: inpurt
+ * Return: Always 0 (success)
  */
 void _puts_recursion(char *s)
 {
@@ -13,5 +13,5 @@ void _puts_recursion(char *s)
 	}
 
 	else
-		_putchar("\n");
+		_putchar('\n');
 }
